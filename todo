@@ -1,0 +1,4 @@
+Redux store event data to be sent to SQL / API
+/redux/store.ts and /redux/slices/RootSlice.ts
+
+
