@@ -1,4 +1,2 @@
-Redux store event data to be sent to SQL / API
-/redux/store.ts and /redux/slices/RootSlice.ts
-
+Add Logout feature in the TemporaryDrawer Component to goto the homescreen and show a success dropper
 
