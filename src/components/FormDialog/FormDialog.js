@@ -10,7 +10,8 @@ import Alert from '@mui/material/Alert';
 // import { default as BasicDatePicker } from '../BasicDatePicker/BasicDatePicker'
 
 export default function FormDialog() {
-    const [value, setValue] = React.useState(null);
+
+  const [value, setValue] = React.useState(null);
   const [open, setOpen] = React.useState(false);
 
   const handleClickOpen = () => {
