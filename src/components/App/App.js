@@ -1,7 +1,7 @@
 import React from 'react';
 import AdapterDateFns from '@mui/lab/AdapterDateFns';
 import LocalizationProvider from '@mui/lab/LocalizationProvider';
-import { Calendar, ButtonAppBar } from '../../components'
+import { BasicCalendar, ButtonAppBar } from '../../components'
 import CssBaseline from '@material-ui/core/CssBaseline';
 import clsx from 'clsx';
 import { MUIDrawer, 
@@ -41,7 +41,7 @@ export const App = () => {
     <div>
     <ButtonAppBar/>
       <div id="Calendar">
-        <Calendar/>
+        <BasicCalendar/>
       </div>
       
     </div>

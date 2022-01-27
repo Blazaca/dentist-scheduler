@@ -1,5 +1,5 @@
 export * from "./App";
-export * from "./Calendar";
+export * from "./BasicCalendar";
 export * from "./ButtonAppBar"
 export * from "./TemporaryDrawer"
 export * from "./FormDialog"

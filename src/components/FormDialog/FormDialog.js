@@ -145,7 +145,7 @@ export default function FormDialog() {
       header.append('content-type', 'application/json')
       console.log(post)
       fetch('http://127.0.0.1:5000/api/appointments', {method: 'POST', headers: header ,body: JSON.stringify(post)})
-
+      window.location.reload(); 
     }
 
     render() {
